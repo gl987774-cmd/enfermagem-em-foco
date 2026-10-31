@@ -18,8 +18,8 @@ python -m http.server 8000
 
 Depois, acesse <http://localhost:8000>.
 
-## Publicar com GitHub Pages
+## Publicar na Vercel
 
-No repositorio, abra **Settings -> Pages**, selecione **Deploy from a branch**, escolha a branch `main` e a pasta `/(root)`. Salve para publicar o site.
+Importe este repositorio na Vercel e selecione a branch `main`. Como o site e estatico, use a pasta raiz do repositorio como diretorio de publicacao; nao e necessario configurar build command. O arquivo `index.html` sera a pagina inicial.
 
-Antes de publicar, confira os links de checkout e os codigos de rastreamento configurados em `index.html`.
+Antes de publicar, confira os links de checkout e os codigos de rastreamento configurados em `index.html`. Depois, cada envio para `main` sera publicado automaticamente pela Vercel.
